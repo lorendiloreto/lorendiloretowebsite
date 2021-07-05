@@ -37,9 +37,10 @@ h2.menu-center {
     text-decoration: none;
     font-size: 17px;
     font-family: Calibri;
+    color: #bbbbbb;
 }
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    //background-color: #ddd;
+    color: white;
 }
