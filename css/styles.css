@@ -1,0 +1,45 @@
+h1.title {
+    font-family: "Arial Black";
+    color: orange;
+    background-color: navy;
+}
+
+body.main {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h2.menu-right {
+    display: inline;
+    float: right;
+}
+h2.menu-left {
+    display: inline;
+    float: left;
+}
+h2.menu-center {
+    display: inline;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    display: block;
+    height: 100%;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Calibri;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
