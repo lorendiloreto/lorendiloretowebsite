@@ -11,6 +11,10 @@ app.use( express.json() )
 const publicDirectoryPath = path.join(__dirname, 'build/src')
 app.use(express.static(publicDirectoryPath))
 
+app.get("/_snowpack/*", (req, res) => {
+  res.sendFile( __dirname + '/build' + req.path)
+})
+
 app.get('/', function(request, response) {
     response.sendFile( __dirname + '/' )
 })
